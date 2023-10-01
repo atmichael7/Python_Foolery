@@ -56,8 +56,13 @@ def goThruMatrix(dimensions, matrix):
             
             print("")
                 
-        
-        
+
+
+# these are parallel arrays that help pass values to the test loop 
+# so the test array is the name of each matrix that will be passed to the function
+# and the par_test is the parallel array that is also taken at the same index as the test array
+#  which results in the same value of its dimensions being passed to the function as well
+
 # testing loop
 test = [matrix_1d, matrix_2d, matrix_3d, matrix_2d_uneven, matrix_3d_uneven]
 par_test = [1, 2, 3, 2, 3]
